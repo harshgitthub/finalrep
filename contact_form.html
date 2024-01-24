@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> contact_form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<style>
+    table, th, td {
+        border:1px solid orange ;
+    }
+    tr{
+        text-align: left;
+    }
+    </style>
+<body style="background-color: black;">
+    <div>
+    <video muted autoplay loop>
+        <source src="nebula_red_-_31420 (720p).mp4" type="video/mp4">
+    </video>
+</div>
+<nav id="nav1" >
+    <a class="h1"  href="index.html" style="color:rgb(95, 215, 255); font-size: 34px;">HOME</a> 
+        <a class ="h2" href="about.html" style="color: rgb(255, 186, 68); font-size: 34px;">ABOUT </a> 
+        <a class="h3" href="contact.html" style="color:rgb(141, 19, 254); font-size: 34px;">CONNECT</a>
+</nav>
+<br><br><br><br>
+<br>
+    
+    <fieldset id="form_1" style="border: none; text-align: center;" >
+    <legend style="text-align: center; font-size: 32px;">CONTACT ME </legend>
+    <br>
+        <form action="mailto:harshchoprajpr@gmail.com" method="post" enctype="text/plain">
+            <label for="name"></label>
+            <input type="text" id="name" name="first-name" required value=" first-name :"><br><br>
+<label for="email"></label>
+
+<label for="lname"></label>
+<input type="text" id="lname" name="Last-name" required value=" last-name :"><br><br>
+<label for="email"></label>
+<label for="number"></label>
+<input type="tel" id="number" name="number" required value=" Phone number:" maxlength="10"><br><br>
+<label for="email"></label>
+            <input type="email" id="email" name="email" required  value="enter your email : "> 
+            <br>
+<label for="message"></label>
+<br>
+<textarea id="message" name="message" cols="20"  rows="10"> What's Up </textarea>
+
+<br><br>
+        <a href="thanks.html" ><input  type="submit" value="SEND " style="width: 100px;"></a>
+        
+    </form>
+</fieldset>
+</body>
+</html>
